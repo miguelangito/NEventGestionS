@@ -1,17 +1,5 @@
-<div id="<%= dom_id event %>">
-  <p>
-    <strong>Name:</strong>
-    <%= event.name %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
-    <%= event.description %>
-  </p>
-
-  <p>
-    <strong>Date:</strong>
-    <%= event.date %>
-  </p>  
-
+<div class="card-body" id="<%= dom_id event %>">
+  <h5 class="card-title"><%= event.name%></h5>
+  <h6 class="card-subtitle mb-2 text-muted"><%=event.description%></h6>
+  <p class="card-text"><%=event.date%></p>
 </div>

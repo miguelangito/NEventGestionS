@@ -18,6 +18,10 @@
   </head>
 
   <body>
+    <div style="display: flex; align-items: center; flex-direction: column; ">
+      <%= render "shared/header" %>
+      <%= render "shared/login" %>
+    </div>
     <%= render "shared/devise_flash"%>
     <%= yield %>
   </body>
