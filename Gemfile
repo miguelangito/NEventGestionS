@@ -48,6 +48,16 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem "rspec-rails", "~> 7.1"
+
+  gem "rswag-api"
+
+  gem "rswag-ui"
+
+  gem "ostruct"
+
+  gem "dotenv", "~> 3.1", ">= 3.1.4"
 end
 
 group :development do
