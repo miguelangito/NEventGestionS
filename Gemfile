@@ -57,7 +57,7 @@ group :development, :test do
 
   gem "ostruct"
 
-  gem "dotenv", "~> 3.1", ">= 3.1.4"
+  gem "dotenv", "~> 3.1"
 end
 
 group :development do
